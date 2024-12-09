@@ -32,6 +32,10 @@ Reverse the dictionary {'a': 1, 'b': 2, 'c': 3} so that keys become values and v
 Write a Python function to check if two dictionaries are identical (contain the same key-value pairs).
 
 
+
+
+
+
 Nested Dictionaries
 Create a nested dictionary to represent the following data:
 Person:  
