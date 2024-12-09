@@ -59,9 +59,8 @@
 
 # dict1 = {'a': 1, 'b': 2}  
 # dict2 = {'c': 3, 'd': 4}  
-# Create a dictionary from a list of tuples: [('name', 'Alice'), ('age', 25), ('city', 'Paris')].
-# Sort the keys of the dictionary {'z': 1, 'a': 2, 'c': 3} in ascending order and print the sorted dictionary.
-# Reverse the dictionary {'a': 1, 'b': 2, 'c': 3} so that keys become values and values become keys.
+
+
 # Write a Python function to check if two dictionaries are identical (contain the same key-value pairs).
 
 # dict1 = {'a': 1, 'b': 2}  
@@ -70,5 +69,28 @@
 # print(dict1)
 # another method to add two dictionaries is with unpacking operator that is ** (double star or double multiple sign)
 
-total = {**dict1, **dict2}
-print(total)
+# total = {**dict1, **dict2}
+# print(total)
+
+# Create a dictionary from a list of tuples: [('name', 'Alice'), ('age', 25), ('city', 'Paris')].
+# dict = {"name": "Alice",
+#         "age": 25,
+#         "city": "Paris",
+#         }
+
+# dict = {'z': 1, 'a': 2, 'c': 3}
+
+# sorted_dictionary = sorted(dict.keys())
+# print(sorted_dictionary)
+
+# Reverse the dictionary {'a': 1, 'b': 2, 'c': 3} so that keys become values and values become keys.
+
+# dict = {'z': 1, 'a': 2, 'c': 3}
+# reversed_dictionary = {value: key for key, value in dict.items()}
+# print(reversed_dictionary)
+
+# Sort the keys of the dictionary {'z': 1, 'a': 2, 'c': 3} in ascending order and print the sorted dictionary.
+
+# dict = {'z': 1, 'a': 2, 'c': 3}
+# ass_dict = sorted(dict.keys())
+# print(ass_dict)
