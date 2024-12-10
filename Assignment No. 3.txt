@@ -50,6 +50,9 @@ Delete the Address key from the nested dictionary.
 Iterate through all the keys in the outermost level of the nested dictionary and print them.
 
 
+
+
+
 Applications of Dictionaries
 Use a dictionary to count the occurrences of each word in the string "hello world hello python world".
 Write a Python program to find the key with the maximum value in the dictionary {'a': 10, 'b': 15, 'c': 7}.
